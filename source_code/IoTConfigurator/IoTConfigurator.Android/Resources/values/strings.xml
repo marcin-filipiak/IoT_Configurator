@@ -1,0 +1,4 @@
+﻿<resources>
+    <string name="permission_bluetooth_rationale">Bluetooth access is required for some feature.</string>
+    <string name="ok">OK</string>
+</resources>

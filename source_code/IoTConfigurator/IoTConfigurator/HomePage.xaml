@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:ui="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
+             x:Class="IoTConfigurator.HomePage"
+             >
+    <NavigationPage.TitleView>
+        <Label HorizontalTextAlignment="Center" TextColor="White" FontSize="16" Text="Connect your device"></Label>
+    </NavigationPage.TitleView>
+    <StackLayout>
+
+        <StackLayout Padding="20,50,20,0">
+
+            <ui:MaterialTextField x:Name="picker" Placeholder="Choose your device" ErrorText="Error" InputType="Choice" BackgroundColor="#f2f2f2"/>
+        </StackLayout>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+
+            <Button
+                WidthRequest="160"
+                HeightRequest     ="160"
+                CornerRadius      ="80"
+                VerticalOptions   ="Center"
+                HorizontalOptions ="Center"
+                Clicked="Connect"
+                Text="Connect"
+                BackgroundColor="#7d6ab2"
+                TextColor="#ffffff"
+                IsVisible="{Binding IsNotLoading}"
+            >
+            </Button>
+              <ActivityIndicator
+            Color="#7d6ab2"
+            WidthRequest="58"
+            HeightRequest="58"
+            IsVisible="{Binding IsLoading}" IsRunning="True">
+
+        </ActivityIndicator>
+
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>
+

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IoTConfigurator.App">
+    <Application.Resources>
+            <Style TargetType="NavigationPage" ApplyToDerivedTypes="True">
+                <Setter Property="BarBackgroundColor" Value="#5c4798"/>
+                <Setter Property="Background" Value="#ffffff"></Setter>
+            </Style>
+            <Style TargetType="TabbedPage" ApplyToDerivedTypes="True">
+                <Setter Property="BarBackgroundColor" Value="#5c4798"/>
+                <Setter Property="Background" Value="#ffffff"></Setter>
+            </Style>
+    </Application.Resources>
+</Application>
