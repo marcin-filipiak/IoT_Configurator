@@ -37,6 +37,7 @@ GooglePlay:
 The application can be found soon on Google Play.
 
 
+<hr>
 
 IoT Configurator - Your path to easy, efficient, and secure electronic device configuration. Download now and experience the simplicity of IoT configuration!
 
