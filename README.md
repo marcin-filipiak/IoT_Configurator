@@ -33,6 +33,7 @@ AAB (Android App Bundle):
 * Once installed, open the app and begin the configuration process.
 
 GooglePlay:
+
 The application can be found soon on Google Play.
 
 
