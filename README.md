@@ -34,7 +34,7 @@ AAB (Android App Bundle):
 
 GooglePlay:
 
-The application can be found soon on Google Play.
+The application can be found soon on Google Play. Please write testing@noweenergie.org if you want help and join to closed test!
 
 
 <hr>
