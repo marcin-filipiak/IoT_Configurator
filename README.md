@@ -14,7 +14,7 @@ User-Friendly Interface: An intuitive user interface makes device configuration 
 
 The technology was developed with the ESP32 chipset in mind but can also be applied to other microcontrollers.
 
-## Installation Instructions
+## Android Installation Instructions
 
 APK (Android Package):
 
